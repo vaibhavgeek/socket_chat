@@ -4,6 +4,13 @@
   "description": "my first socket.io app",
   "dependencies": {
     "angular": "^1.6.4",
+    "ejs": "^2.5.6",
+    "mongoose": "^4.9.10",
+    "nodemon": "^1.11.0",
     "socket.io": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   }
 }
